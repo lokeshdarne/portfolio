@@ -23,6 +23,7 @@ export function Navbar() {
             <Link href="/#about" className="hover:text-primary">About</Link>
             <Link href="/#projects" className="hover:text-primary">Projects</Link>
             <Link href="/#blog" className="hover:text-primary">Blog</Link>
+            <Link href="/blog/editor" className="hover:text-primary">New Post</Link>
             <Link href="/#contact" className="hover:text-primary">Contact</Link>
             <ThemeToggle />
           </div>
@@ -46,6 +47,7 @@ export function Navbar() {
             <Link href="/#about" className="block px-3 py-2 hover:text-primary">About</Link>
             <Link href="/#projects" className="block px-3 py-2 hover:text-primary">Projects</Link>
             <Link href="/#blog" className="block px-3 py-2 hover:text-primary">Blog</Link>
+            <Link href="/blog/editor" className="block px-3 py-2 hover:text-primary">New Post</Link>
             <Link href="/#contact" className="block px-3 py-2 hover:text-primary">Contact</Link>
           </div>
         </div>
